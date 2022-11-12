@@ -1,0 +1,45 @@
+/**
+*
+* style.css
+* @author- Arshath
+* @date- 10/11/2022
+*/
+.container {
+    max-width: 502px;
+    margin: 100px auto;
+}
+.length {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    column-gap: 70px;
+    font-size: 16px;
+    padding: 10px 0 10px 0;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #1B3DA8;
+}
+.length span {
+    font-size: 25px;
+    font-weight: 900;
+}
+.length p {
+    font-size: 20px;
+    margin: 5px 0 0 4px;
+    color: #ffffffbf;
+}
+.textarea-container {
+    padding: 35px 22px 27px 22px;
+    border-radius: 5px;
+    background-color: #F6FAFB;
+}
+.content textarea {
+    width: 438px;
+    height: 305px;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 25px;
+    padding: 10px 10px;
+    border: none;
+    color: #767877;
+}
